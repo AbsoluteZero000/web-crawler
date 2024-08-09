@@ -1,0 +1,19 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "web crawler using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AbsoluteZero000/web-crawler.git"
+  },
+  "author": "Ahmed Wael Wanas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbsoluteZero000/web-crawler/issues"
+  },
+  "homepage": "https://github.com/AbsoluteZero000/web-crawler#readme"
+}
