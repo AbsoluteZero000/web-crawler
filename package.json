@@ -5,11 +5,10 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
-
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "jest": {
-      "transform": {}
+    "transform": {}
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,8 @@
   "devDependencies": {
     "jest": "^29.7.0"
   },
-  "type":"module"
+  "type": "module",
+  "dependencies": {
+    "jsdom": "^24.1.1"
+  }
 }
