@@ -2,9 +2,14 @@
   "name": "web-crawler",
   "version": "1.0.0",
   "description": "web crawler using javascript",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+
+  },
+  "jest": {
+      "transform": {}
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/AbsoluteZero000/web-crawler/issues"
   },
-  "homepage": "https://github.com/AbsoluteZero000/web-crawler#readme"
+  "homepage": "https://github.com/AbsoluteZero000/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "type":"module"
 }
